@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Trees" />
+        <module name="MultiThreading" />
+        <module name="DecoratorDesignPattern" />
+        <module name="ParkingLotDesign" />
+        <module name="Collections" />
+        <module name="Exception" />
+        <module name="Streams" />
+        <module name="Functionalnterface" />
+        <module name="HashMapImpl" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="aabe6c26-e282-47a4-827d-071a3d847cb3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collections/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collections/src/main/java/org/example/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collections/src/main/java/org/example/CarComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DecoratorDesignPattern/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DecoratorDesignPattern/src/main/java/org/example/ArabicaCoffee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DecoratorDesignPattern/src/main/java/org/example/Coffee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DecoratorDesignPattern/src/main/java/org/example/DecoratorCoffee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DecoratorDesignPattern/src/main/java/org/example/MilkDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DecoratorDesignPattern/src/main/java/org/example/PlainCoffee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DecoratorDesignPattern/src/main/java/org/example/SugarDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exception/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exception/src/main/java/org/example/MyCustomException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Functionalnterface/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Functionalnterface/src/main/java/org/example/Bird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HashMapImpl/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HashMapImpl/src/main/java/org/example/Entry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HashMapImpl/src/main/java/org/example/MyHashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Interview.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultiThreading/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultiThreading/src/main/java/MonitorLockNew/SharedMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultiThreading/src/main/java/MonitorLockNew/SharedResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultiThreading/src/main/java/org/example/MonitorLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultiThreading/src/main/java/org/example/MonitorLockMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultiThreading/src/main/java/org/example/MonitorLockRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultiThreading/src/main/java/org/example/MyRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultiThreading/src/main/java/org/example/MyThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ParkingLotDesign/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ParkingLotDesign/src/main/java/org/example/ParkingLot/Models/EntranceGate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ParkingLotDesign/src/main/java/org/example/ParkingLot/Models/ExitGate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ParkingLotDesign/src/main/java/org/example/ParkingLot/Models/ParkingSpot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ParkingLotDesign/src/main/java/org/example/ParkingLot/Models/Ticket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ParkingLotDesign/src/main/java/org/example/ParkingLot/Models/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ParkingLotDesign/src/main/java/org/example/ParkingLot/Models/VehicleType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ParkingLotDesign/src/main/java/org/example/ParkingLotManager/NearestSpotManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ParkingLotDesign/src/main/java/org/example/ParkingLotManager/ParkingSpotManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ParkingLotDesign/src/main/java/org/example/ParkingLotStrategy/SpotManagerFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ParkingLotDesign/src/main/java/org/example/ParkingSpot/Extensions/FourWheelerSpot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ParkingLotDesign/src/main/java/org/example/ParkingSpot/Extensions/TwoWheelerSpot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StrategyDesignPattern/StrategyDesignPattern.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StrategyDesignPattern/src/VehiclePackage/NormalVehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StrategyDesignPattern/src/VehiclePackage/SportsVehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StrategyDesignPattern/src/VehiclePackage/SuvVehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StrategyDesignPattern/src/VehiclePackage/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StrategyDesignPattern/src/strategy/DriveStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StrategyDesignPattern/src/strategy/NormalDS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StrategyDesignPattern/src/strategy/OffRoadDS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StrategyDesignPattern/src/strategy/SpecialDS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Streams/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Trees/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Trees/src/main/java/org/example/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bicycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MotorCycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Vehicle.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2zViPGp5usLEmAxyTMELO9h84qV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "C:/Users/HP/Desktop/Spring/HotelService",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.SharedMain">
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+      <module name="Collections" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+      <module name="Streams" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+      <module name="MultiThreading" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MonitorLockMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.MonitorLockMain" />
+      <module name="MultiThreading" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SharedMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MonitorLockNew.SharedMain" />
+      <module name="MultiThreading" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MonitorLockNew.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SharedMain" />
+        <item itemvalue="Application.MonitorLockMain" />
+        <item itemvalue="Application.Main (5)" />
+        <item itemvalue="Application.Main (4)" />
+        <item itemvalue="Application.Main (3)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aabe6c26-e282-47a4-827d-071a3d847cb3" name="Changes" comment="" />
+      <created>1751822617748</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1751822617748</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
