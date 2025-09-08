@@ -15,8 +15,9 @@ public class ReadWriteLocksResource {
             throw new RuntimeException(e);
         }
         finally {
-            readWriteLock.readLock().unlock();
             System.out.println("readLock released by :- " + Thread.currentThread().getName());
+            readWriteLock.readLock().unlock();
+
         }
     }
 
@@ -29,8 +30,8 @@ public class ReadWriteLocksResource {
             throw new RuntimeException(e);
         }
         finally {
-            readWriteLock.writeLock().unlock();
             System.out.println("writeLock released by :- " + Thread.currentThread().getName());
+            readWriteLock.writeLock().unlock();
         }
     }
 }
