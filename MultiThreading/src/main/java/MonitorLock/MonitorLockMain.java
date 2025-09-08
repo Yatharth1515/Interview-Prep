@@ -1,4 +1,4 @@
-package org.example;
+package MonitorLock;
 
 public class MonitorLockMain {
     public static void main(String[] args) {

@@ -27,9 +27,9 @@
         Car car4 = new Car("CompactSUV","ev");
         Car car5 = new Car("CompactSUV","petrol");
         Car[] cars = new Car[]{car1,car2,car5,car4,car3};
-        //Arrays.sort(cars, (Car o1, Car o2) -> o1.carType.compareTo(o2.carType));
+        Arrays.sort(cars, (Car o1, Car o2) -> o1.carType.compareTo(o2.carType));
         //Arrays.sort(cars, new CarComparator());
-        Arrays.sort(cars);
+       // Arrays.sort(cars);
         for (Car c: cars){
             System.out.print(c.carName + " " +c.carType + " -- ");
         }

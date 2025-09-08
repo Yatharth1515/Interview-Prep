@@ -1,4 +1,4 @@
-package org.example;
+package MonitorLock;
 
 public class MonitorLockRunnable implements Runnable{
     MonitorLock obj;

@@ -14,7 +14,8 @@ public class SharedMain {
 
         });
 
-        Thread consumerThread = new Thread(sharedResourceObj::consumeItem);
+        Thread consumerThread = new Thread(() ->
+                sharedResourceObj.consumeItem());
         producerThread.start();
         consumerThread.start();
     }

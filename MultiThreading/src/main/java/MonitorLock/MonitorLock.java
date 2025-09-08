@@ -1,4 +1,4 @@
-package org.example;
+package MonitorLock;
 
 public class MonitorLock {
     public synchronized void  task1() {
