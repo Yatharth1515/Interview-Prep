@@ -11,6 +11,7 @@
         <module name="DecoratorDesignPattern" />
         <module name="ParkingLotDesign" />
         <module name="Collections" />
+        <module name="ElevatorLLD" />
         <module name="TicTacToeLLD" />
         <module name="Exception" />
         <module name="Streams" />

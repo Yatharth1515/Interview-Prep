@@ -14,6 +14,5 @@ public class Main {
         t.start();
         t1.start();
 
-        System.out.println("value :-"+ op.a);
     }
 }

@@ -8,30 +8,76 @@ public class Main {
 
         ReadWriteLocksResource  locksResource = new ReadWriteLocksResource();
         ReadWriteLock lock = new ReentrantReadWriteLock();
+        Thread t1 = new Thread(() -> locksResource.consumer(lock));
 
-        Thread t1 = new Thread(() -> {
+        Thread t2 = new Thread(() ->
+        {
             try {
-                locksResource.producer(lock);
-            } catch (Exception e) {
-                System.out.println(" exception in T1");
+                Thread.sleep(100);
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
             }
+            locksResource.producer(lock);
         });
 
-        Thread t2 = new Thread(() -> {
-            try {
-
+        Thread t3 = new Thread(() ->{
+            try{
+                Thread.sleep(100);
                 locksResource.producer(lock);
-            } catch (Exception e) {
-                System.out.println("exception in T2");
+            }catch (Exception e){
+                System.out.println("ex");
             }
-        });
-        ReadWriteLocksResource  locksResource2 = new ReadWriteLocksResource();
-        Thread t3 = new Thread(() -> {
-
-            locksResource2.consumer(lock);
         });
         t1.start();
         t2.start();
         t3.start();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        //        Thread t1 = new Thread(() -> {
+//            try {
+//                locksResource.producer(lock);
+//            } catch (Exception e) {
+//                System.out.println(" exception in T1");
+//            }
+//        });
+//
+//        Thread t2 = new Thread(() -> {
+//            try {
+//
+//                locksResource.producer(lock);
+//            } catch (Exception e) {
+//                System.out.println("exception in T2");
+//            }
+//        });
+//        ReadWriteLocksResource  locksResource2 = new ReadWriteLocksResource();
+//        Thread t3 = new Thread(() -> {
+//
+//            locksResource2.consumer(lock);
+//        });
+//        t1.start();
+//        t2.start();
+//        t3.start();
     }
 }

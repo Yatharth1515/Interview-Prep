@@ -18,7 +18,7 @@ public class PCMain {
             for (int i = 0; i < 6; i++) {
                 try {
                     int consumedItem = sharedResource.consume();
-                    System.out.println("consumedItem from consumer thread " + consumedItem);
+                   // System.out.println("consumedItem from consumer thread " + consumedItem);
                 } catch (InterruptedException e) {
                     throw new RuntimeException(e);
                 }
