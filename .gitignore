@@ -27,3 +27,15 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+# Build folders
+out/
+target/
+build/
+
+# Compiled files
+*.class
+
+# IDE settings
+.idea/
+*.iml
